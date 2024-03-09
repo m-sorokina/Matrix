@@ -3,13 +3,9 @@ public class Main {
     static final String CREATE = "Create an array";
     static final String SET_ELEMENT = "Set an element";
     static final String SORT_BY_ROW = "Sort by row";
-
     static final String SORT_BY_COLUMN = "Sort by column";
-
     static final String SORT_ALL = "Sort all items";
-
     static final String ARRAY_MIDDLE = "Array middle value";
-
     static String[] menuItems = {EXIT, CREATE, SET_ELEMENT, SORT_BY_ROW, SORT_BY_COLUMN, SORT_ALL, ARRAY_MIDDLE};
 
     static Matrix matrix;

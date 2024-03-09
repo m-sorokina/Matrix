@@ -15,13 +15,15 @@ public class Menu {
         }
         System.out.printf("%d - %s%n", 0, menuItems[0]);
         int commandNumber = readInt("Select menu item: ");
+        System.out.println();
         while (commandNumber < 0 || commandNumber > menuItems.length - 1){
             commandNumber = readInt("Wrong number, repeat: ");
+            System.out.println();
         }
         return menuItems[commandNumber];
     }
 
-    public int readInt(String prompt){
+    public static int readInt(String prompt){
         System.out.printf(prompt);
         String text = input.nextLine();
         try{

@@ -96,8 +96,8 @@ public class Matrix {
 
     public String toString() {
         String matrixString = "";
-        for (int i = 0; i < getHeight(); i++) {
-            matrixString += Arrays.toString(matrix[i]) + "\n";
+        for (int[] item : matrix) {
+            matrixString += Arrays.toString(item) + "\n";
         }
         return matrixString;
     }

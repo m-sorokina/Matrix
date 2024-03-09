@@ -36,7 +36,7 @@ public class Main {
 
     public static Matrix createArray() {
         int matrixHeight = Menu.readInt("Enter the height of array: ");
-        int matrixWidth = Menu.readInt("Enter the wight of array: ");
+        int matrixWidth = Menu.readInt("Enter the width of array: ");
         return new Matrix(matrixHeight, matrixWidth);
     }
 
